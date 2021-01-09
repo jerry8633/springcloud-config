@@ -1,0 +1,14 @@
+spring:
+  mail:
+    username: jiang19902021@163.com
+    password: JXKKIUKWPFNLLBSL
+    host: smtp.163.com
+  datasource:
+    url: jdbc:mysql://localhost:3306/springcloud?serverTimezone=UTC
+    password: root
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+ip:
+  minute: 1 
+  maxrequestnum: 10
